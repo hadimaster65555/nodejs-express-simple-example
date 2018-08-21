@@ -1,3 +1,5 @@
+const path = require('path');
+
 const express = require('express');
 
 const app = express();
@@ -16,7 +18,15 @@ app.get('/about', (request, response) => {
     response.send({
         name: 'hadimaster is cool'
     })
-})
+});
+
+app.get('/index', (request, response) => {
+    response.sendFile(path.resolve(__dirname,'index.html'));
+});
+
+app.get('/contact', (request, response) => {
+    response.sendFile(path.resolve(__dirname,'contact.html'));
+});
 
 // const http = require('http');
 
