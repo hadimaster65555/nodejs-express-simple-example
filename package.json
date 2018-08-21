@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-simple-static-page",
+  "version": "1.0.0",
+  "description": "Simple example of how to response static pages in nodejs using http and fs package.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadimaster65555/nodejs-simple-static-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hadimaster65555/nodejs-simple-static-page/issues"
+  },
+  "homepage": "https://github.com/hadimaster65555/nodejs-simple-static-page#readme"
+}
