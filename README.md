@@ -1,2 +1,4 @@
-# nodejs-simple-static-page
-Simple example of how to response static pages in nodejs using http and fs package.
+# nodejs-express-simple-example
+Simple example of REST API using nodejs and express.
+          
+    
