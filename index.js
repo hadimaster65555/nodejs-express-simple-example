@@ -8,6 +8,8 @@ app.listen(3000, () => {
     console.log('App listening on port 3000');
 });
 
+app.use(express.static('public'));
+
 app.get('/', (request, response) => {
     response.json({
         name: 'hadimaster'
